@@ -1,3 +1,57 @@
 html {
     font-family: sans-serif;
 }
+body{
+    margin: 0 auto;
+    text-align: center
+}
+
+#myUL{
+    width: 200px;
+    margin: auto;
+
+}
+.row{
+    margin-bottom: 8px;
+
+}
+.container{
+    border: 0px solid #000;
+    margin: 0 auto;
+    text-align: center;
+    width: 320px;
+    height: 200px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    box-shadow: 0 0 5px;
+}
+.button{
+    background: -moz-linear-gradient(#a000d6, #ffebff);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#b900d6), to(#ffebff));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00BBD6', endColorstr='#EBFFFF');
+    padding: 3px 7px;
+    color: #333;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #666;
+}
+input {
+    border: 1px solid #ccc; 
+   }
+input:focus {
+    border: 3px solid rgb(204, 51, 181); /* Рамка при получении фокуса */
+   }
+@media screen and (max-width: 500px ){
+    .container{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        border: 1px solid #000;
+        width: 320px;
+       height: 250px;
+       padding: 13px;
+       flex-wrap: wrap;
+    }
+    
+}
